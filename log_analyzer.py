@@ -5,7 +5,11 @@ LOG_DIR = "/Users/adcv/airflow/logs"
 def analyze_file(file_list: str):
 """
     The analyze_file method is the main method of this script. 
+    It reads in space delimited files that stores error messages
+    and keeps count of how many errors found in the path provided.
     
+    Inputs:
+        - file_list: string that retrieves every .log file from specified directory
 """
     error_count = 0
     error_messages = []
