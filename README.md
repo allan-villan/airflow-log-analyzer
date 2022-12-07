@@ -1,16 +1,16 @@
 # airflow-log-analyzer
-> After specifying a log folder, this program analyzes the logs available in the directory and its subdirectories. 
+After specifying a log folder, this program analyzes the logs available in the directory and its subdirectories. 
 
 ## Requirements:
-> Python Version: 3.10.4
+- Python Version: 3.10.4
 
 ### Code
 
-> To specify where this program analyzes files, copy the file path and replace the global variable provided (*LOG_DIR*). 
+- To specify where this program analyzes files, copy the file path and replace the global variable provided (*LOG_DIR*). 
 
-> The types off error messages identified can also be changed by including more error types in the *error* variable. 
+- The types off error messages identified can also be changed by including more error types in the *error* variable. 
 
-### Example Output:
+## Example Output:
 > Total number of errors: 3
 
 > Here are all the errors:
